@@ -18,7 +18,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [[menu.main]]
   name = "Docs"
   weight = 3
-  url = "docs/main/"
+  url = "docs/"
 
 [[menu.main]]
   name = "Get in touch"
@@ -50,7 +50,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
 
-  repo = "https://github.com/onweru/compose"
+  repo = "https://github.com/Harkishen-Singh/compose"
 
   time_format_blog = "Monday, 02 January, 2006"
   time_format_default = "2 January, 2006"
@@ -78,4 +78,4 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # optional
   # attribution. Feel free to delete this
   [params.author]
-    name = "Bench-Routes"
+    name = "Bench-Routes team"

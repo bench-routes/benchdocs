@@ -20,7 +20,7 @@ We recommend you to wait for stable releases, before you use this at a large sca
 4. Interactive user-experience
 5. Easier visualisation using graphs
 
-{{< button "docs/compose/" "Read the Docs" >}}
+{{< button "docs/" "Read the Docs" >}}
 {{< /column >}}
 
 {{< column >}}
