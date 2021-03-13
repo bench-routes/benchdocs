@@ -1,6 +1,7 @@
 ---
 title: "Installation"
-weight: 2
+description: "Installation Steps"
+weight: 3
 ---
 
 {{< tip "warning" >}}
