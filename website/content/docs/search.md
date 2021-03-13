@@ -1,9 +1,9 @@
-+++
-description = ""
-title = "Search Function"
-weight = 8
+---
+description: ""
+title: "Search Function"
+weight: 4
 
-+++
+---
 Firstly, ensure you have these lines inside your config.toml file
 
 ```toml
