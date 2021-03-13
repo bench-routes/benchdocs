@@ -1,8 +1,8 @@
-+++
-title = "Getting started"
-description = "Getting started with Bench-Routes"
-# weight = 10
-+++
+---
+title: "Getting started"
+description: "Getting started with Bench-Routes"
+weight: 2
+---
 
 This is a guide to get started with the project. This is written more like a `hello-world` like manner, in order to
 keep it simple.
