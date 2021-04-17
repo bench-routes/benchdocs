@@ -1,6 +1,6 @@
 +++
 description = ""
-title = "Idea in brief"
+title = "About"
 weight = 8
 
 +++
@@ -30,7 +30,7 @@ important to monitor. Collector aims to collect internal metrics of instances, w
 helping in carrying out advanced calculations.
 
 #### Process collector
-Process collector collects information per process and allows bench-routes to monitor it.  This enables monitoring of
+Process collector collects information per process and allows Bench-routes to monitor it.  This enables monitoring of
 resources on a process level, leading to better observations. An example of this can be monitoring CPU, memory and
 network usage of a process with PID X (say chrome).
 
