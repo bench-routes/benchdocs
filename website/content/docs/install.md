@@ -31,10 +31,10 @@ tar -zxvf bench-routes.tar.gz
 cd build/src-linux-amd64
 
 # Run
-./src-linus-amd64.sh
+./src-linux-amd64.sh
 ```
 
-This should be enough to turn on Bench-routes. You should get something like this in the logs.
+This should be enough to get Bench-routes running. You should get something like this in the logs.
 
 ```shell
 [hsingh@localhost src-linux-amd64]$ ./src-linux-amd64.sh 
@@ -68,7 +68,7 @@ LOG:    2021/03/10 21:59:14.268939 main.go:93 Bench-routes is up and running
 
 ## Docker
 
-Right now, we do not provide docker builds at docker hub. This will be done once the projecct moves to `beta` version.
+Right now, we do not provide docker builds at docker hub. This will be done once the project moves to `beta` version.
 But that does not mean you cannot use docker to make your life easier. We have a
 [dockerfile](https://github.com/bench-routes/bench-routes/blob/master/Dockerfile) for this purpose.
 
