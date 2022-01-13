@@ -9,7 +9,7 @@ Current releases/images of Bench-routes is not suitable for production loads. If
 consider opening issues [here](https://github.com/bench-routes/bench-routes/issues).
 {{< /tip >}}
 
-Bench-routes can be installed in 2 ways:
+Bench-routes can be installed in 3 ways:
 
 1. Bare metal
 2. Docker
@@ -25,7 +25,7 @@ amd64 version of `v1.0.0-alpha.2` release.
 wget -O bench-routes.tar.gz https://github.com/bench-routes/bench-routes/releases/download/v1.0.0-alpha.2/src-linux-amd64.tar.gz
 
 # Extract the tar file
-tar -zxvf bench-routes.tar.gz 
+tar -zxvf bench-routes.tar.gz
 
 # Change directory
 cd build/src-linux-amd64
@@ -37,15 +37,15 @@ cd build/src-linux-amd64
 This should be enough to get Bench-routes running. You should get something like this in the logs.
 
 ```shell
-[hsingh@localhost src-linux-amd64]$ ./src-linux-amd64.sh 
+[hsingh@localhost src-linux-amd64]$ ./src-linux-amd64.sh
 LOG:    2021/03/10 21:59:14.263315 main.go:55 initializing...
-LOG:    2021/03/10 21:59:14.266505 main.go:295 forming req_res chain ... 
+LOG:    2021/03/10 21:59:14.266505 main.go:295 forming req_res chain ...
 https://www.google.co.insearch
-LOG:    2021/03/10 21:59:14.266584 main.go:295 forming flood_ping chain ... 
+LOG:    2021/03/10 21:59:14.266584 main.go:295 forming flood_ping chain ...
 LOG:    2021/03/10 21:59:14.266688 db.go:132 creating chain at storage/req-res-delay-monitoring/chunk_req_res_https___www.google.co.in_search.json
 LOG:    2021/03/10 21:59:14.266736 db.go:132 creating chain at storage/flood-ping/chunk_flood_ping_google.co.in.json
-LOG:    2021/03/10 21:59:14.266749 main.go:295 forming jitter chain ... 
-LOG:    2021/03/10 21:59:14.266808 main.go:295 forming ping chain ... 
+LOG:    2021/03/10 21:59:14.266749 main.go:295 forming jitter chain ...
+LOG:    2021/03/10 21:59:14.266808 main.go:295 forming ping chain ...
 LOG:    2021/03/10 21:59:14.266926 db.go:132 creating chain at storage/ping/chunk_ping_google.co.in.json
 LOG:    2021/03/10 21:59:14.266873 db.go:132 creating chain at storage/jitter/chunk_jitter_google.co.in.json
 https://www.facebook.comsearch
@@ -86,7 +86,7 @@ This should start running Bench-routes in the current terminal.
 
 ## Install from source
 
-Since the project is in active development in early stages, the recent master commits will always be more stable than
+Since the project is in active development in the early stages, the recent master commits will always be more stable than
 the alpha releases. This makes a lot of sense to install and use the most recent code from development.
 
 You can install and run from source in 3 ways:
@@ -113,7 +113,7 @@ This simply runs the following command
 go run src/*.go 9990
 ```
 
-This means that you can also use that command to run directly.
+This means that you can also use the above command to run directly.
 
 Note: If you want to run Bench-routes at a port other than `:9990`, just change the last argument to the port you
 want to keep.

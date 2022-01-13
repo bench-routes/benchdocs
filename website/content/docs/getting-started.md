@@ -4,10 +4,11 @@ description: "Getting started with Bench-Routes"
 weight: 2
 ---
 
-This is a guide to get started with the project. This is written more like a `hello-world` like manner, in order to
+This is a guide to get started with the project. This is written more in a `hello-world` like manner, to
 keep it simple.
 
-Running Bench-routes is pretty straight forward. You require 2 files mostly:
+Running Bench-routes is pretty straightforward. You require 2 files mostly:
+
 1. Binary file
 2. Configuration file (as `local-config.yml`)
 
@@ -19,6 +20,7 @@ in stable releases.
 
 If you have followed the instructions by now from installation to making sure that config file is present, you can safely
 run bench-routes. Based on your method of installation, you can run it:
+
 1. `./bench-routes`
 2. `go run ./src/*.go`
 3. `make run`
